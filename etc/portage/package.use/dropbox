@@ -1,0 +1,4 @@
+# Testing Nautilus compatibility
+# /opt/dropbox/PyQt5.QtDBus.so
+# causes Gnome to crash even without -x. Leaving it on
+# net-misc/dropbox -X

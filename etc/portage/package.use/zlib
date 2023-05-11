@@ -1,0 +1,4 @@
+# required by media-video/vlc-3.0.18::gentoo
+# required by vlc (argument)
+
+sys-libs/zlib minizip

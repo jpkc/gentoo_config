@@ -1,0 +1,99 @@
+media-video/vlc ffmpeg gui jpeg libcaca matroska mp3 mpeg ogg opus png svg vaapi vdpau vpx -wayland x264 x265 xml X
+
+# X 	Enable support for e.g. fullscreen mode via X and the X C-language binding. It does not build a graphical interface
+# a52 	Enable support for decoding ATSC A/52 streams used in DVD
+# alsa 	Add support for media-libs/alsa-lib (Advanced Linux Sound Architecture)
+# aom 	Enable AV1 encoding/decoding support using media-libs/libaom
+# archive 	Enable support for libarchive stream extractor
+# aribsub 	Enable support for decoding ARIB STD-B24 subtitles
+# bidi 	Enable bidirectional language support
+# bluray 	Enable libbluray for Blu-ray disc support
+# cddb 	Access cddb servers to retrieve and submit information about compact disks
+# chromaprint 	Enable libchromaprint for Chromaprint based audio fingerprinter support
+# chromecast 	Enable experimental support for Google Chromecast
+# dav1d 	Enable support for media-libs/dav1d AV1 decoder
+# dbus 	Enable dbus support for anything that needs it (gpsd, gnomemeeting, etc)
+# dc1394 	Enable IIDC cameras support
+# debug 	Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# directx 	Enable Win32 DirectX, D3D11va and DxVA2 support
+# dts 	Enable DTS Coherent Acoustics decoder support
+# dvbpsi 	Enable support for Mpeg-TS files (.ts, .m2ts, .mts) via media-libs/libdvbpsi
+# dvd 	Add support for DVDs
+# encode 	Enable streaming-output support and videolan manager to control multiple streams from within one instance
+# faad 	Enable AAC audio decoding library support via media-libs/faad2
+# fdk 	Enable the Fraunhofer AAC codec library
+# ffmpeg 	Enable ffmpeg/libav-based audio/video codec support
+# flac 	Add support for FLAC: Free Lossless Audio Codec
+# fluidsynth 	Enable Fluidsynth MIDI software synthesis (with external sound fonts)
+# fontconfig 	Support for configuring and customizing font access via media-libs/fontconfig
+# gcrypt 	Enable cryptography support via libgcrypt
+# gme 	Enable support for media-libs/game-music-emu for playing various video game music formats
+# gnome-keyring 	Enable support for storing passwords via gnome-keyring
+# gstreamer 	Enable GStreamer based decoding support (currently supports only video decoding)
+# gui 	Enable support for a graphical user interface
+# ieee1394 	Enable FireWire/iLink IEEE1394 support (dv, camera, ...)
+# jack 	Add support for the JACK Audio Connection Kit
+# jpeg 	Add JPEG image support
+# kate 	Adds support for Ogg Kate subtitles via libkate
+# kms 	Enable kernel mode setting video output plugin via x11-libs/libdrm
+# libass 	SRT/SSA/ASS (SubRip / SubStation Alpha) subtitle support
+# libcaca 	Add support for colored ASCII-art graphics
+# libnotify 	Enable desktop notification support
+# libplacebo 	Enable support for GPU accelerated video rendering with media-libs/libplacebo
+# libsamplerate 	Build with support for converting sample rates using libsamplerate
+# libtar 	Uses libtar instead of the built-in tar reader for reading custom skins
+# libtiger 	Enable Ogg Kate subtitles rendering using libtiger
+# linsys 	Enable support for Linux Linear Systems Ltd. SDI and HD-SDI input cards
+# lirc 	Add support for lirc (Linux's Infra-Red Remote Control)
+# live 	Enable live555 streaming media support (client support for rtsp)
+# loudness 	Enable loudness normalisation according to the EBU R128 standard using media-libs/libebur128
+# lua 	Enable Lua scripting support, needed for including support for Jamendo (online music platform) and similar things
+# macosx-notifications 	Enable Mac OS X notifications module (formerly growl)
+# mad 	Add support for mad (high-quality mp3 decoder library and cli frontend)
+# matroska 	Enable matroska support using reference libraries (fallback on other existing matroska support if disabled, i.e., matroska enabled FFmpeg)
+# modplug 	Add libmodplug support for playing SoundTracker-style music files
+# mp3 	Add support for reading mp3 files
+# mpeg 	Add libmpeg2 support for mpeg-1 and mpeg-2 video streams
+# mtp 	Enable support for Media Transfer Protocol
+# musepack 	Enable support for the musepack audio codec
+# ncurses 	Add ncurses support (console display library)
+# nfs 	Enable support for nfs protocol via net-fs/libnfs
+# ogg 	Add support for the Ogg container format (commonly used by Vorbis, Theora and flac)
+# omxil 	Enable OpenMAX Integration Layer codec module
+# optimisememory 	Enable optimisation for memory rather than performance
+# opus 	Enable Opus audio codec support
+# png 	Add support for libpng (PNG images)
+# projectm 	Enable the projectM visualization plugin
+# pulseaudio 	Add support for PulseAudio sound server
+# rdp 	Enables RDP/Remote Desktop support
+# run-as-root 	Allows vlc to start for root. Don't enable this unless you have a very specific (e.g. embedded) need for it!
+# samba 	Add support for SAMBA (Windows File and Printer sharing)
+# sdl-image 	Enable sdl image video decoder (depends on sdl)
+# sftp 	Enable libssh2 to support SFTP file transfer
+# shout 	Enable libshout output
+# sid 	Adds support for playing C64 SID files through media-libs/libsidplay:2
+# skins 	Enable support for the skins2 interface
+# soxr 	Enable SoX Resampler support via media-libs/soxr
+# speex 	Add support for the speex audio codec (used for speech)
+# srt 	Enable support for Secure Reliable Transport (SRT) via net-libs/srt
+# ssl 	Add support for SSL/TLS connections (Secure Socket Layer / Transport Layer Security)
+# svg 	Add support for SVG (Scalable Vector Graphics)
+# taglib 	Enable tagging support with taglib
+# test 	Enable dependencies and/or preparations necessary to run tests (usually controlled by FEATURES=test but can be toggled independently)
+# theora 	Add support for the Theora Video Compression Codec
+# tremor 	Enable tremor, a fixed-point version of the Ogg Vorbis decoder
+# truetype 	Add support for FreeType and/or FreeType2 fonts
+# twolame 	Enable twolame support (MPEG Audio Layer 2 encoder)
+# udev 	Enable virtual/udev integration (device discovery, power and storage device support, etc)
+# upnp 	Enable support for the Intel SDK stack based UPnP discovery module instead of CyberLink
+# v4l 	Enable support for video4linux (using linux-headers or userspace libv4l libraries)
+# vaapi 	Enable Video Acceleration API for hardware decoding
+# vdpau 	Enable the Video Decode and Presentation API for Unix acceleration interface
+# vnc 	Enable VNC (remote desktop viewer) support
+# vpx 	Enable the decoder(s) from the WebM VP8 / VP9 Codec SDK
+# wayland 	Enable dev-libs/wayland backend
+# x264 	Enable h264 encoding using x264
+# x265 	Support X265 Encoder
+# xml 	Add support for XML files
+# zeroconf 	Enable support for zero-configuration networking via avahi
+# zvbi 	Enable support for teletext subtitles via the zvbi library 

@@ -1,0 +1,78 @@
+acpi_cpufreq           28672  1
+asus_atk0110           28672  0
+ata_generic            16384  0
+bluetooth             835584  34 btrtl,btmtk,btintel,btbcm,bnep,btusb,rfcomm
+bnep                   32768  2
+btbcm                  24576  1 btusb
+btintel                45056  1 btusb
+btmtk                  16384  1 btusb
+btrtl                  28672  1 btusb
+btusb                  69632  0
+ccp                   114688  1 kvm_amd
+cfg80211             1015808  2 rtw88_core,mac80211
+crc32_pclmul           16384  0
+crc32c_intel           20480  6
+crct10dif_pclmul       16384  1
+drm_kms_helper        176128  1 nvidia_drm
+edac_mce_amd           45056  0
+fam15h_power           16384  0
+fat                    90112  1 vfat
+fuse                  180224  1
+ghash_clmulni_intel    16384  0
+hid_jabra              16384  0
+i2c_dev                28672  0
+i2c_piix4              32768  0
+irqbypass              16384  1 kvm
+k10temp                16384  0
+kvm                  1044480  1 kvm_amd
+kvm_amd               172032  0
+ledtrig_audio          16384  1 snd_hda_codec_generic
+libarc4                16384  1 mac80211
+Linux madmax 6.2.14-gentoo-dist #1 SMP PREEMPT_DYNAMIC Mon May  1 15:03:02 -00 2023 x86_64 AMD FX(tm)-6300 Six-Core Processor AuthenticAMD GNU/Linux
+loop                   32768  0
+mac80211             1236992  2 rtw88_core,rtw88_usb
+mc                     65536  1 snd_usb_audio
+Module                  Size  Used by
+nvidia              55021568  188 nvidia_modeset
+nvidia_drm             77824  4
+nvidia_modeset       1232896  6 nvidia_drm
+parport                69632  2 parport_pc,ppdev
+parport_pc             40960  0
+pata_acpi              16384  0
+pata_atiixp            16384  0
+pcspkr                 16384  0
+polyval_clmulni        16384  0
+polyval_generic        16384  1 polyval_clmulni
+ppdev                  24576  0
+r8169                  98304  0
+rfcomm                 77824  4
+rfkill                 32768  6 bluetooth,cfg80211
+rtw88_8821c            86016  1 rtw88_8821cu
+rtw88_8821cu           16384  0
+rtw88_core            196608  2 rtw88_8821c,rtw88_usb
+rtw88_usb              24576  1 rtw88_8821cu
+serio_raw              20480  0
+sha512_ssse3           49152  0
+snd                   114688  40 snd_hda_codec_generic,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_usb_audio,snd_usbmidi_lib,snd_hda_codec,snd_hda_codec_realtek,snd_timer,snd_pcm,snd_rawmidi
+snd_hda_codec         163840  4 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec_realtek
+snd_hda_codec_generic    94208  1 snd_hda_codec_realtek
+snd_hda_codec_hdmi     77824  1
+snd_hda_codec_realtek   147456  1
+snd_hda_core          106496  5 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek
+snd_hda_intel          53248  6
+snd_hwdep              20480  2 snd_usb_audio,snd_hda_codec
+snd_intel_dspcfg       32768  1 snd_hda_intel
+snd_intel_sdw_acpi     20480  1 snd_intel_dspcfg
+snd_pcm               143360  5 snd_hda_codec_hdmi,snd_hda_intel,snd_usb_audio,snd_hda_codec,snd_hda_core
+snd_rawmidi            45056  1 snd_usbmidi_lib
+snd_seq_device         16384  1 snd_rawmidi
+snd_timer              45056  1 snd_pcm
+snd_usb_audio         344064  8
+snd_usbmidi_lib        40960  1 snd_usb_audio
+soundcore              16384  1 snd
+sp5100_tco             20480  0
+vfat                   24576  1
+video                  69632  1 nvidia_modeset
+wmi                    36864  2 video,wmi_bmof
+wmi_bmof               16384  0
+

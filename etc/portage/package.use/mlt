@@ -1,0 +1,5 @@
+# required by media-video/shotcut-22.12.21::gentoo
+# required by shotcut (argument)
+# >=media-libs/mlt-7.14.0 frei0r jack ffmpeg
+
+media-libs/mlt frei0r jack ffmpeg

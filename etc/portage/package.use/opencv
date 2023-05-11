@@ -1,0 +1,7 @@
+# required by media-plugins/frei0r-plugins-1.8.0::gentoo[facedetect]
+# required by media-libs/mlt-7.14.0::gentoo[frei0r]
+# required by media-video/shotcut-22.12.21::gentoo
+# required by shotcut (argument)
+# >=media-libs/opencv-4.7.0 contribdnn
+
+media-libs/opencv contrib contribdnn

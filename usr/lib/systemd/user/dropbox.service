@@ -1,0 +1,13 @@
+[Unit]
+Description=Keeps your dropbox folder in sync with dropbox cloud
+Documentation=man:dropbox(8)
+Documentation=https://www.dropbox.com/
+
+[Service]
+Type=simple
+ExecStart=/opt/bin/dropbox start autostart n
+ExecStop=/opt/bin/dropbox stop
+# Environment=DISPLAY=:0
+
+[Install]
+WantedBy=default.target

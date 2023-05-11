@@ -1,0 +1,31 @@
+www-client/firefox -clang dbus hwaccel openh264 system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-png system-python-libs system-webp X
+
+# X 	Add support for X11
+# clang 	Use Clang compiler instead of GCC
+# dbus 	Enable dbus support for anything that needs it (gpsd, gnomemeeting, etc)
+# debug 	Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# eme-free 	Disable EME (DRM plugin) capability at build time
+# geckodriver 	Enable WebDriver support
+# gmp-autoupdate 	Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
+# hardened 	Activate default security enhancements for toolchain (gcc, glibc, binutils)
+# hwaccel 	Force-enable hardware-accelerated rendering (Mozilla bug 594876)
+# jack 	Add support for the JACK Audio Connection Kit
+# libproxy 	Enable libproxy support
+# lto 	Enable Link Time Optimization (LTO)
+# openh264 	Use media-libs/openh264 for H264 support instead of downloading binary blob from Mozilla at runtime
+# pgo 	Add support for profile-guided optimization for faster binaries - this option will double the compile time
+# pulseaudio 	Add support for PulseAudio sound server
+# screencast 	Enable support for remote desktop and screen cast using PipeWire
+# selinux 	!!internal use only!! Security Enhanced Linux support, this must be set by the selinux profile or breakage will occur
+# sndio 	Enable support for the media-sound/sndio backend
+# system-av1 	Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled
+# system-harfbuzz 	Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled
+# system-icu 	Use the system-wide dev-libs/icu instead of bundled
+# system-jpeg 	Use the system-wide media-libs/libjpeg-turbo instead of bundled
+# system-libevent 	Use the system-wide dev-libs/libevent instead of bundled
+# system-libvpx 	Use the system-wide media-libs/libvpx instead of bundled
+# system-png 	Use the system-wide media-libs/libpng instead of bundled (requires APNG patches)
+# system-python-libs 	Use system's python site instead of bundled python libraries
+# system-webp 	Use the system-wide media-libs/libwebp instead of bundled
+# wayland 	Enable dev-libs/wayland backend
+# wifi 	Enable wireless network functions

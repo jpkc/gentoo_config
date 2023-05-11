@@ -1,0 +1,21 @@
+Linux madmax 6.2.14-gentoo-dist #1 SMP PREEMPT_DYNAMIC Mon May  1 15:03:02 -00 2023 x86_64 AMD FX(tm)-6300 Six-Core Processor AuthenticAMD GNU/Linux
+Bus 007 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 006 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 002: ID 046d:0a15 Logitech, Inc. G35 Headset
+Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 001 Device 003: ID 046d:c077 Logitech, Inc. Mouse
+Bus 001 Device 002: ID 046d:c336 Logitech, Inc. G213 Prodigy Gaming Keyboard
+Bus 001 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 009 Device 003: ID 1d5c:5001 Fresco Logic USB3.0 Hub
+Bus 009 Device 002: ID 0bda:0409 Realtek Semiconductor Corp. 2-Port USB 3.1 Hub
+Bus 009 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 008 Device 007: ID 0b05:190e ASUSTek Computer, Inc. ASUS USB-BT500
+Bus 008 Device 005: ID 1d5c:5011 Fresco Logic USB2.0 Hub
+Bus 008 Device 003: ID 0bda:c811 Realtek Semiconductor Corp. 802.11ac NIC
+Bus 008 Device 006: ID 0bda:1100 Realtek Semiconductor Corp. Hub Controller
+Bus 008 Device 004: ID 0b0e:245e GN Netcom Jabra Link 370
+Bus 008 Device 002: ID 0bda:5409 Realtek Semiconductor Corp. 3-Port USB 2.1 Hub
+Bus 008 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub

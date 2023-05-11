@@ -1,0 +1,28 @@
+mail-client/thunderbird dbus -clang hwaccel openh264 pgo system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-librnp system-libvpx system-png system-python-libs system-webp X
+
+# clang 	Use Clang compiler instead of GCC
+# dbus 	Enable dbus support for anything that needs it (gpsd, gnomemeeting, etc)
+# debug 	Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# eme-free 	Disable EME (DRM plugin) capability at build time
+# hardened 	Activate default security enhancements for toolchain (gcc, glibc, binutils)
+# hwaccel 	Force-enable hardware-accelerated rendering (Mozilla bug 594876)
+# jack 	Add support for the JACK Audio Connection Kit
+# libproxy 	Enable libproxy support
+# lto 	Enable Link Time Optimization (LTO)
+# openh264 	Use media-libs/openh264 for H.264 support instead of downloading binary blob from Mozilla at runtime
+# pgo 	Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
+# pulseaudio 	Add support for PulseAudio sound server
+# selinux 	!!internal use only!! Security Enhanced Linux support, this must be set by the selinux profile or breakage will occur
+# sndio 	Enable support for the media-sound/sndio backend
+# system-av1 	Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled.
+# system-harfbuzz 	Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
+# system-icu 	Use the system-wide dev-libs/icu instead of bundled.
+# system-jpeg 	Use the system-wide media-libs/libjpeg-turbo instead of bundled.
+# system-libevent 	Use the system-wide dev-libs/libevent instead of bundled.
+# system-librnp 	Use system-wide dev-util/librnp instead of bundled one.
+# system-libvpx 	Use the system-wide media-libs/libvpx instead of bundled.
+# system-png 	Use the system-wide media-libs/libpng instead of bundled (requires APNG patches)
+# system-python-libs 	Use system's python site instead of bundled python libraries
+# system-webp 	Use the system-wide media-libs/libwebp instead of bundled.
+# wayland 	Enable dev-libs/wayland backend
+# wifi 	Enable wireless network functions 

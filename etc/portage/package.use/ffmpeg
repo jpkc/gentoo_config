@@ -1,0 +1,5 @@
+# required by media-video/vlc-3.0.18::gentoo[ffmpeg]
+# required by vlc (argument)
+# >=media-video/ffmpeg-4.4.4-r2 vaapi vdpau
+
+media-video/ffmpeg cuda nvenc opus vaapi vdpau vidstab x264 x265

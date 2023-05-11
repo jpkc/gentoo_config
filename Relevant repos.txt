@@ -1,0 +1,11 @@
+Gnome Extensions:
+	Caffeine
+	Desk Changer
+	OpenWeather
+	Removable Drive Menu
+	Tilling Assistant
+	Tray Icons Reloaded
+	User Themes
+	V-Shell (Vertical Workspaces)
+
+

@@ -1,0 +1,4 @@
+# Avoiding Circular References
+
+# media-sound/mpg123-1.31.2 (Change USE: -pulseaudio)
+media-libs/libsndfile minimal

@@ -1,0 +1,14 @@
+# sys-boot/grub efiemu fonts libzfs themes truetype
+
+# USE flags for sys-boot/grub GNU GRUB boot loader
+# device-mapper         Enable support for device-mapper from sys-fs/lvm2
+# doc   Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# efiemu        Build and install the efiemu runtimes
+# fonts         Build and install fonts for the gfxterm module
+# libzfs        Enable support for sys-fs/zfs
+# mount         Build and install the grub-mount utility
+# nls   Add Native Language Support (using gettext - GNU locale utilities)
+# sdl   Add support for Simple Direct Layer (media library)
+# test  Enable dependencies and/or preparations necessary to run tests (usually controlled by FEATURES=test but can be >
+# themes        Build and install GRUB themes (starfield)
+# truetype      Build and install grub-mkfont conversion utility

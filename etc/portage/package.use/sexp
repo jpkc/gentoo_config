@@ -1,0 +1,4 @@
+# required by dev-util/librnp-0.17.0::gentoo
+# required by mail-client/thunderbird-102.10.1::gentoo[system-librnp]
+# required by thunderbird (argument)
+dev-libs/sexp static-libs

@@ -1,0 +1,8 @@
+ * Pulseaudio autospawn by client library is no longer enabled when systemd is available.
+ * It's recommended to start pulseaudio via its systemd user units:
+ * 
+ *   systemctl --user enable pulseaudio.service pulseaudio.socket
+ * 
+ * Root user can change system default configuration for all users:
+ * 
+ *   systemctl --global enable pulseaudio.service pulseaudio.socket

@@ -1,0 +1,14 @@
+# required by app-editors/texworks-0.6.7::gentoo
+# required by texworks (argument)
+# >=dev-qt/qtscript-5.15.9 scripttools
+
+# required by dev-python/PyQt5-5.15.9::gentoo[multimedia]
+# required by media-sound/puddletag-2.2.0-r1::gentoo
+# required by puddletag (argument)
+# >=dev-qt/qtmultimedia-5.15.9 widgets
+
+dev-qt/qtscript scripttools
+dev-qt/qtmultimedia widgets
+
+# Is this a problem for shotcut? I believe it needs widgets... Lets see.
+# [ebuild  N     ] dev-qt/qtquickcontrols2-5.15.9  USE="-debug -test -widgets" 

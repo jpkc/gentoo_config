@@ -1,0 +1,24 @@
+# Needed for google drive gnome-nautilus integration.
+gnome-base/gvfs fuse gnome-keyring gnome-online-accounts google
+
+# afp 	Enables support for accessing AFP (Apple Filing Protocol) network shares
+# archive 	Enables support for accessing files in archives transparently via app-arch/libarchive
+# bluray 	Enable playback of Blu-ray filesystems using media-libs/libbluray
+# cdda 	Add Compact Disk Digital Audio (Standard Audio CD) support
+# elogind 	Use sys-auth/elogind for session tracking.
+# fuse 	Enables fuse mount points in $HOME/.gvfs for legacy application access
+# gnome-keyring 	Enable support for storing passwords via gnome-keyring
+# gnome-online-accounts 	Enable configuration panel for net-libs/gnome-online-accounts accounts
+# google 	Enables support for accessing Google accounts via dev-libs/libgdata
+# gphoto2 	Add digital camera support
+# http 	Enable the HTTP/DAV backend using net-libs/libsoup
+# ios 	Enable support for Apple's iDevice with iOS operating system (iPad, iPhone, iPod, etc)
+# mtp 	Enable support for Media Transfer Protocol
+# nfs 	Enable NFS client support via net-fs/libnfs.
+# policykit 	Enable PolicyKit (polkit) authentication support
+# samba 	Add support for SAMBA (Windows File and Printer sharing)
+# systemd 	Enable use of systemd-specific libraries and features like socket activation or session tracking
+# test 	Enable dependencies and/or preparations necessary to run tests (usually controlled by FEATURES=test but can be toggled independently)
+# udev 	Enable udev base replacement code for cdda feature
+# udisks 	Enable storage management support (automounting, volume monitoring, etc)
+# zeroconf 	Support for DNS Service Discovery (DNS-SD) 

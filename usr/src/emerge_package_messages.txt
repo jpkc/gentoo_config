@@ -1,0 +1,378 @@
+* Messages for package media-plugins/grilo-plugins-0.3.16:
+
+ * Ignoring USE=gnome-online-accounts USE does not contain lua
+
+ * Messages for package net-libs/libpsl-0.21.2:
+
+ * "icu" and "idn" USE flags are enabled. Using "idn".
+
+ * Messages for package sys-kernel/linux-firmware-20230404:
+
+ * Your configuration for sys-kernel/linux-firmware-20230404 has been saved in 
+ * "/etc/portage/savedconfig/sys-kernel/linux-firmware-20230404" for your editing pleasure.
+ * You can edit these files by hand and remerge this package with
+ * USE=savedconfig to customise the configuration.
+ * You can rename this file/directory to one of the following for
+ * its configuration to apply to multiple versions:
+ * ${PORTAGE_CONFIGROOT}/etc/portage/savedconfig/
+ * [${CTARGET}|${CHOST}|""]/${CATEGORY}/[${PF}|${P}|${PN}]
+ * If you are only interested in particular firmware files, edit the saved
+ * configfile and remove those that you do not want.
+
+ * Messages for package sys-apps/coreutils-9.3-r1:
+
+ * Make sure you run 'hash -r' in your active shells.
+ * You should also re-source your shell settings for LS_COLORS
+ *   changes, such as: source /etc/profile
+
+ * Messages for package sys-kernel/gentoo-sources-6.3.1:
+
+ * If you are upgrading from a previous kernel, you may be interested
+ * in the following document:
+ *   - General upgrade guide: https://wiki.gentoo.org/wiki/Kernel/Upgrade
+
+ * Messages for package dev-lang/ruby-3.0.6-r2:
+
+ * 
+ * To switch between available Ruby profiles, execute as root:
+ * 	eselect ruby set ruby(23|24|...)
+ * 
+
+ * Messages for package dev-lang/ruby-3.1.4-r2:
+
+ * 
+ * To switch between available Ruby profiles, execute as root:
+ * 	eselect ruby set ruby(23|24|...)
+ * 
+
+ * Messages for package dev-ruby/rubygems-3.4.6:
+
+ * 
+ * To switch between available Ruby profiles, execute as root:
+ * 	eselect ruby set ruby(25|26|...)
+ * 
+
+ * Messages for package net-misc/dhcpcd-10.0.1:
+
+ * 
+ * If you activate the lookup-hostname hook to look up your hostname
+ * using the dns, you need to install net-dns/bind-tools.
+
+ * Messages for package app-text/ghostscript-gpl-10.0.0-r5:
+
+ * 
+ * Directory symlink(s) may need protection:
+ * 
+ * 	/usr/share/ghostscript/10.00.0/Resource/CMap
+ * 
+ * Use the UNINSTALL_IGNORE variable to exempt specific symlinks
+ * from the following search (see the make.conf man page).
+ * 
+ * Searching all installed packages for files installed via above symlink(s)...
+ * 
+ * The above directory symlink(s) are all safe to remove. Removing them now...
+ * 
+
+ * Messages for package dev-libs/libinput-1.23.0:
+
+ * Install additional packages for optional runtime features:
+ *   dev-python/python-libevdev for measure and replay tools
+
+ * Messages for package dev-util/sysprof-3.48.0:
+
+ * On many systems, especially amd64, it is typical that with a modern
+ * toolchain -fomit-frame-pointer for gcc is the default, because
+ * debugging is still possible thanks to gcc4/gdb location list feature.
+ * However sysprof is not able to construct call trees if frame pointers
+ * are not present. Therefore -fno-omit-frame-pointer CFLAGS is suggested
+ * for the libraries and applications involved in the profiling. That
+ * means a CPU register is used for the frame pointer instead of other
+ * purposes, which means a very minimal performance loss when there is
+ * register pressure.
+
+ * Messages for package dev-vcs/git-2.40.1:
+
+ * Some scripts require additional dependencies:
+ *   dev-util/quilt for git-quiltimport
+
+ * Messages for package net-dialup/ppp-2.5.0-r2:
+
+ * pon, poff and plog scripts have been supplied for experienced users.
+ * Users needing particular scripts (ssh,rsh,etc.) should check out the
+ * /usr/share/doc/ppp-2.5.0-r2/scripts directory.
+
+ * Messages for package net-fs/cifs-utils-7.0:
+
+ * setuid use flag was dropped due to multiple security implications
+ * such as CVE-2009-2948, CVE-2011-3585 and CVE-2012-1586
+ * You are free to set setuid flags by yourself
+
+ * Messages for package sys-apps/util-linux-2.38.1-r2:
+
+ * The mesg/wall/write tools have been disabled due to USE=-tty-helpers.
+
+ * Messages for package sys-devel/llvm-16.0.3:
+
+ * You can find additional opt-viewer utility scripts in:
+ *   /usr/lib/llvm/16/share/opt-viewer
+ * To use these scripts, you will need Python along with the following
+ * packages:
+ *   dev-python/pygments (for opt-viewer)
+ *   dev-python/pyyaml (for all of them)
+
+ * Messages for package app-text/asciidoc-10.2.0:
+
+ * Install additional packages for optional runtime features:
+ *   media-sound/lilypond and virtual/imagemagick-tools for music filter support
+ *   dev-util/source-highlight and dev-python/pygments and app-text/highlight for source filter support
+ *   dev-texlive/texlive-latex and app-text/dvipng for latex filter support
+ *   dev-texlive/texlive-latex and app-text/dvisvgm for latex filter support
+ *   media-gfx/graphviz for graphviz filter support
+
+ * Messages for package dev-python/lxml-4.9.2:
+
+ * Install additional packages for optional runtime features:
+ *   dev-python/beautifulsoup4 for Support for BeautifulSoup as a parser backend
+ *   dev-python/cssselect for Translates CSS selectors to XPath 1.0 expressions
+
+ * Messages for package dev-python/jinja-3.1.2:
+
+ * For i18n support, please emerge dev-python/Babel.
+
+ * Messages for package net-libs/webkit-gtk-2.40.1-r410:
+
+ * Install additional packages for optional runtime features:
+ *   media-plugins/gst-plugins-dash for (MPEG-)DASH support
+ *   media-plugins/gst-plugins-hls for HTTP-Live-Streaming support
+
+ * Messages for package net-libs/webkit-gtk-2.40.1-r600:
+
+ * Install additional packages for optional runtime features:
+ *   media-plugins/gst-plugins-dash for (MPEG-)DASH support
+ *   media-plugins/gst-plugins-hls for HTTP-Live-Streaming support
+
+ * Messages for package www-servers/apache-2.4.57:
+
+ * 
+ * Selected default MPM: prefork
+ * 
+ * Please note that you need SysV IPC support in your kernel.
+ * Make sure CONFIG_SYSVIPC=y is set.
+ * 
+ * Attention: cgi and cgid modules are now handled via APACHE2_MODULES flags
+ * in make.conf. Make sure to enable those in order to compile them.
+ * In general, you should use 'cgid' with threaded MPMs and 'cgi' otherwise.
+
+ * Messages for package media-sound/pulseaudio-daemon-16.1-r7:
+
+ * You have enabled bluetooth USE flag for pulseaudio. Daemon will now handle
+ * bluetooth Headset (HSP HS and HSP AG) and Handsfree (HFP HF) profiles using
+ * native headset backend by default. This can be selectively disabled
+ * via runtime configuration arguments to module-bluetooth-discover
+ * in /etc/pulse/default.pa
+ * To disable HFP HF append enable_native_hfp_hf=false
+ * To disable HSP HS append enable_native_hsp_hs=false
+ * To disable HSP AG append headset=auto or headset=ofono
+ * (note this does NOT require enabling USE ofono)
+ * 
+ * GStreamer-based RTP implementation modile enabled.
+ * To use OPUS payload install media-plugins/gst-plugins-opus
+ * and add enable_opus=1 argument to module-rtp-send
+ * 
+ * Pulseaudio autospawn by client library is no longer enabled when systemd is available.
+ * It's recommended to start pulseaudio via its systemd user units:
+ * 
+ *   systemctl --user enable pulseaudio.service pulseaudio.socket
+ * 
+ * Root user can change system default configuration for all users:
+ * 
+ *   systemctl --global enable pulseaudio.service pulseaudio.socket
+ * 
+ * If you would like to enable autospawn by client library, edit autospawn flag in /etc/pulse/client.conf like this:
+ * 
+ *   autospawn = yes
+ * 
+ * The change from autospawn to user units will take effect after restarting.
+ * 
+ * PulseAudio can be enhanced by installing the following:
+ *   sys-auth/rtkit for restricted realtime capabilities via D-Bus
+
+ * Messages for package gnome-base/gnome-shell-44.1:
+
+ * Install additional packages for optional runtime features:
+ *   gnome-extra/gnome-browser-connector for Browser extension integration
+
+ * Regenerating GNU info directory index...
+ * Processed 123 info files.
+
+ * IMPORTANT: 16 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+
+ * After world updates, it is important to remove obsolete packages with
+ * emerge --depclean. Refer to `man emerge` for more information.
+
+* Messages for package media-libs/openh264-2.3.1-r1:
+
+ * Please restart your login session, in order for the session's environment
+ * to include the new MOZ_GMP_PATH variable.
+ * 
+ * This package attempts to override the Mozilla GMPInstaller auto-update process,
+ * however even if it is not successful in doing so the profile-installed plugin
+ * will not be used unless this package is removed.  This package will take precedence
+ * over any gmp-gmpopenh264 that may be installed in a user's profile.
+ * 
+
+ * Messages for package sys-devel/clang-16.0.3:
+
+ * You can find additional utility scripts in:
+ *   /usr/lib/llvm/16/share/clang
+ * Some of them are vim integration scripts (with instructions inside).
+ * The run-clang-tidy.py script requires the following additional package:
+ *   dev-python/pyyaml
+
+ * Messages for package net-libs/nodejs-20.1.0:
+
+ * remember to run: source /etc/profile if you plan to use nodejs
+ * 	in your current shell
+
+ * Messages for package sys-devel/clang-15.0.7-r1:
+
+ * You can find additional utility scripts in:
+ *   /usr/lib/llvm/15/share/clang
+ * Some of them are vim integration scripts (with instructions inside).
+ * The run-clang-tidy.py script requires the following additional package:
+ *   dev-python/pyyaml
+
+ * Messages for package www-client/firefox-112.0.2:
+
+ * 
+ * Note regarding Trusted Recursive Resolver aka DNS-over-HTTPS (DoH):
+ * Due to privacy concerns (encrypting DNS might be a good thing, sending all
+ * DNS traffic to Cloudflare by default is not a good idea and applications
+ * should respect OS configured settings), "network.trr.mode" was set to 5
+ * ("Off by choice") by default.
+ * You can enable DNS-over-HTTPS in Firefox's preferences.
+ * 
+ * Upstream operates a service named Normandy which allows Mozilla to
+ * push changes for default settings or even install new add-ons remotely.
+ * While this can be useful to address problems like 'Armagadd-on 2.0' or
+ * revert previous decisions to disable TLS 1.0/1.1, privacy and security
+ * concerns prevail, which is why we have switched off the use of this
+ * service by default.
+ * 
+ * To re-enable this service set
+ * 
+ *     app.normandy.enabled=true
+ * 
+ * in about:config.
+ * 
+ * Since firefox-91.0 we no longer install multiple shortcuts for
+ * each supported display protocol.  Instead we will only install
+ * one generic Mozilla Firefox shortcut.
+ * If you still want to be able to select between running Mozilla Firefox
+ * on X11 or Wayland, you have to re-create these shortcuts on your own.
+ * 
+ * Unfortunately Firefox-100.0 breaks compatibility with some sites using 
+ * useragent checks. To temporarily fix this, enter about:config and modify 
+ * network.http.useragent.forceVersion preference to "99".
+ * Or install an addon to change your useragent.
+ * See: https://support.mozilla.org/en-US/kb/difficulties-opening-or-using-website-firefox-100
+ * 
+
+ * Regenerating GNU info directory index...
+ * Processed 123 info files.
+
+ * IMPORTANT: 16 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+
+* Messages for package sys-kernel/gentoo-sources-6.2.7:
+
+ * Note: Even though you have successfully unmerged 
+ * your kernel package, directories in kernel source location: 
+ * /usr/src/linux-6.2.7-gentoo
+ * with modified files will remain behind. By design, package managers
+ * will not remove these modified files and the directories they reside in.
+ * For more detailed kernel removal instructions, please see: 
+ * https://wiki.gentoo.org/wiki/Kernel/Removal
+
+ * Regenerating GNU info directory index...
+ * Processed 8 info files.
+
+* Messages for package app-portage/gentoolkit-0.6.1-r3:
+
+ * 
+ * For further information on gentoolkit, please read the gentoolkit
+ * guide: https://wiki.gentoo.org/wiki/Gentoolkit
+ * 
+ * Another alternative to equery is app-portage/portage-utils
+ * 
+ * Additional tools that may be of interest:
+ * 
+ *     app-admin/eclean-kernel
+ *     app-portage/diffmask
+ *     app-portage/flaggie
+ *     app-portage/portpeek
+ *     app-portage/smart-live-rebuild
+
+ * Regenerating GNU info directory index...
+ * Processed 109 info files.
+
+ * Messages for package acct-group/realtime-0:
+
+ * Adding group realtime
+
+ * Messages for package sys-auth/realtime-base-0.1-r1:
+
+ * We have added realtime scheduling privileges for users in the realtime group.
+ * Please make sure users needing such privileges are in that group.
+
+ * Regenerating GNU info directory index...
+ * Processed 109 info files.
+
+>>> Installing (1 of 1) net-misc/dropbox-173.4.6706::gentoo
+ * Updating .desktop files database ...                                                                          [ ok ]
+ * Warning: while running, dropbox may attempt to autoupdate itself in
+ *  your user's home directory.  To prevent this, run the following as
+ *  each user who will run dropbox:
+ * 
+ * install -dm0 ~/.dropbox-dist
+ * QA Notice: new icons were found installed but icon cache
+ * has not been updated:
+ *   /usr/share/icons/hicolor/scalable/apps/dropbox.svg
+ *   /usr/share/icons/hicolor/16x16/status/dropboxstatus-busy.png
+ *   /usr/share/icons/hicolor/16x16/status/dropboxstatus-blank.png
+ *   /usr/share/icons/hicolor/16x16/status/dropboxstatus-busy2.png
+ *   /usr/share/icons/hicolor/16x16/status/dropboxstatus-logo.png
+ *   /usr/share/icons/hicolor/16x16/status/dropboxstatus-idle.png
+ *   /usr/share/icons/hicolor/16x16/status/dropboxstatus-x.png
+ * Please make sure to call xdg_icon_cache_update()
+ * in pkg_postinst() and pkg_postrm() phases of appropriate pkgs.
+
+>>> Completed (1 of 1) net-misc/dropbox-173.4.6706::gentoo
+
+ * GNU info directory index is up-to-date.
+ 
+ You can customize Grub2 parameters in /etc/default/grub.
+* Running grub2-mkconfig to create /boot/grub/grub.cfg...
+* 
+* Kernel compiled successfully!
+* 
+* Required Kernel Parameters:
+*     root=/dev/$ROOT
+* 
+*     Where $ROOT is the device node for your root partition as the
+*     one specified in /etc/fstab
+* 
+* If you require Genkernel's hardware detection features; you MUST
+* tell your bootloader to use the provided INITRAMFS file.
+
+* WARNING... WARNING... WARNING...
+* Additional kernel cmdline arguments that *may* be required to boot properly...
+* add "vga=791 splash=silent,theme:gentoo console=tty1 quiet" if you use a splash framebuffer ]
+* With support for several ext* filesystems available, it may be needed to
+* add "rootfstype=ext3" or "rootfstype=ext4" to the list of boot parameters.
+
+* Do NOT report kernel bugs as genkernel bugs unless your bug
+* is about the default genkernel configuration...
+* 
+* Make sure you have the latest ~arch genkernel before reporting bugs.
