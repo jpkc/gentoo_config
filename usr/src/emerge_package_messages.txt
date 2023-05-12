@@ -376,3 +376,19 @@
 * is about the default genkernel configuration...
 * 
 * Make sure you have the latest ~arch genkernel before reporting bugs.
+
+
+ * Messages for package acct-group/locate-0-r1:
+
+ * Adding group locate
+
+ * Messages for package sys-apps/mlocate-0.26-r3:
+
+ * The database for the locate command is generated daily by a cron job,
+ * if you install for the first time you can run the updatedb command manually now.
+ * 
+ * Note that the /etc/updatedb.conf file is generic,
+ * please customize it to your system requirements.
+
+ * GNU info directory index is up-to-date.
+
