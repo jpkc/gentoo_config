@@ -6,6 +6,8 @@
 #	$ cat /proc/cmdline # Handy for mitigations=off check
 #	$ grep . /sys/devices/system/cpu/vulnerabilities/*
 #	$ ./spectre-meltdown-checker.sh --explain
+#	$ USE=-war emerge @world (https://www.shellcheck.net/)
+#
 
 emerge --ask --update --deep --with-bdeps=y --newuse --changed-use --keep-going --noreplace @world
 emerge @preserved-rebuild
