@@ -7,7 +7,8 @@
 #	$ grep . /sys/devices/system/cpu/vulnerabilities/*
 #	$ ./spectre-meltdown-checker.sh --explain
 #	$ USE=-war emerge @world (https://www.shellcheck.net/)
-#
+#	$ setfont LatArCyrHeb-16 (/usr/share/consolefonts)
+#	$ loadkeys de-latin1 br-latin1-us (/usr/share/keymaps(/i386/qwertz/))
 
 emerge --ask --update --deep --with-bdeps=y --newuse --changed-use --keep-going --noreplace @world
 emerge @preserved-rebuild
