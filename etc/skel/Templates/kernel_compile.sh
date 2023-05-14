@@ -9,6 +9,8 @@
 #	$ USE=-war emerge @world (https://www.shellcheck.net/)
 #	$ setfont LatArCyrHeb-16 (/usr/share/consolefonts)
 #	$ loadkeys de-latin1 br-latin1-us (/usr/share/keymaps(/i386/qwertz/))
+#	$ localectl (to see how tty are configured on /etc/vconsole.conf)
+
 
 emerge --ask --update --deep --with-bdeps=y --newuse --changed-use --keep-going --noreplace @world
 emerge @preserved-rebuild
