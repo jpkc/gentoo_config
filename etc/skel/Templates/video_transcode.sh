@@ -8,7 +8,10 @@ do
 	python inference_realesrgan_video.py -i "${file}" -o "${file}.AI_upscaled.mp4"
 
 #	ffmpeg -i in.mp4 -filter:v "crop=out_w:out_h:x:y" out.mp4
-	ffmpeg -vsync 0 -hwaccel cuda -hwaccel_output_format cuda -c:v h264_cuvid -resize 1920x1080 -i "$file" -an -c:v h264_nvenc -b:v 750k converted/"$file"_FullHD.mp4
+	ffmpeg -vsync 0 -hwaccel cuda -hwaccel_output_format cuda -resize 1920x1080 -i "$file" -an                     -c:v h264_nvenc -b:v 750k converted/"$file"_FullHD.mp4
+	ffmpeg -vsync 0 -hwaccel cuda -hwaccel_output_format cuda -resize 960x540   -i "$file"                         -c:a copy -c:v h264_nvenc -b:v 5M converted/"$file"_generic.mp4
+	ffmpeg -vsync 0 -hwaccel cuda -hwaccel_output_format cuda                   -i "$file" -vf scale_cuda=1280:720 -c:a copy -c:v h264_nvenc -b:v 5M converted/"$file"_generic_b.mp4
+	ffmpeg -vsync 0 -hwaccel cuda -hwaccel_output_format cuda                   -i "$file" -vf scale_npp=1280:720 -c:a copy -c:v h264_nvenc -b:v 5M converted/"$file"_generic_c.mp4
 #	ffmpeg -vsync 0 -c:v hevc_cuvid -resize 1600x1200 -i "$file" -an -c:v converted/"$file"_scaled_1600x1200.mp4
 #	ffmpeg -i input.mp4 -map 0:v -c:v copy -bsf:v h264_mp4toannexb raw.h264
 
@@ -18,6 +21,16 @@ do
 #	rm "$file"
 done
 
+# Subtitltes: https://www.baeldung.com/linux/subtitles-ffmpeg
+
+# Generating a delayed version of subtitles.srt:
+# ffmpeg -itsoffset 2 -i subtitles.srt -c copy subtitles_delayed.srt
+
+# Hard adding subtitles:
+# -vf subtitles=Bosse\ -\ Der\ letzte\ Tanz\ \(Official\ Video\).srt
+
+# Soft adding subtitle tracks:
+# -i sample_video_subtitle_ffmpeg.srt -c:s mov_text 
 
 # h264 and h265 compression rate: (Constant Rate Factor - CRF)
 # -c:v libx264 -crf 28 (The lower the CRF, the higher the bitrate)

@@ -10,7 +10,9 @@
 #	$ setfont LatArCyrHeb-16 (/usr/share/consolefonts)
 #	$ loadkeys de-latin1 br-latin1-us (/usr/share/keymaps(/i386/qwertz/))
 #	$ localectl (to see how tty are configured on /etc/vconsole.conf)
-
+#	$ dmesg -D (or -E to control how dmesg logs messages to terminal. cat /proc/sys/kernel/printk for loglevel (man klogctl))
+#	$ tail -f /var/log/emerge.log	# Persistent log
+#	$ /var/tmp/portage/<category>/<packagename-version>/temp/build.log # Volatile log (erased after successful emerge. Keept otherwise)
 
 emerge --ask --update --deep --with-bdeps=y --newuse --changed-use --keep-going --noreplace @world
 emerge @preserved-rebuild

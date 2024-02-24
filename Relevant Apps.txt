@@ -1,3 +1,13 @@
-Timidity++
-QTractor
+Apps:
+	Timidity++
+	QTractor
+
+Gnome Extensions:
+	Caffeine
+	Desk Changer
+	OpenWeather
+	Removable Drive Menu
+	Tilling Assistant
+	Transparent top bar
+	V-Shell (Vertical Workspaces)
 

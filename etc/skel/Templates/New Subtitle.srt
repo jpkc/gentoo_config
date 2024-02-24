@@ -1,0 +1,30 @@
+hours:minutes:seconds,milliseconds
+
+# Generating a delayed version of subtitles.srt:
+ffmpeg -itsoffset 2 -i subtitles.srt -c copy subtitles_delayed.srt
+
+# Hard adding subtitles:
+# -vf subtitles=Bosse\ -\ Der\ letzte\ Tanz\ \(Official\ Video\).srt
+
+# Soft adding subtitle tracks:
+# -i sample_video_subtitle_ffmpeg.srt -c:s mov_text 
+
+1
+00:00:01,000 --> 00:00:03,900
+In this lesson, we're going to
+be talking about finance. And
+
+2
+00:00:04,000 --> 00:00:09,900
+one of the most important aspects
+of finance is interest.
+
+3
+00:00:00,000 --> 00:00:00,000
+
+4
+00:00:00,000 --> 00:00:00,000
+
+5
+00:00:00,000 --> 00:00:00,000
+

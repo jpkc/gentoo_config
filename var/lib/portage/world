@@ -37,4 +37,6 @@ sys-kernel/gentoo-sources
 sys-libs/gpm
 sys-process/htop
 www-client/firefox
+www-misc/profile-sync-daemon
 x11-drivers/nvidia-drivers
+
