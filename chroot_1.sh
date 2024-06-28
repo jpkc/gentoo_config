@@ -1,6 +1,6 @@
 #!/bin/bash
-mount /dev/sdaX /mnt/gentoo
-mount /dev/sdaY /mnt/gentoo/boot
+# mount /dev/sda6 /mnt/gentoo
+# mount /dev/sda1 /mnt/gentoo/boot
 cp --dereference /etc/resolv.conf /mnt/gentoo/etc/
 
 mount --types proc /proc /mnt/gentoo/proc
