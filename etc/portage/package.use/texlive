@@ -1,5 +1,5 @@
+app-text/texlive cjk xetex X png science truetype xetex extra graphics humanities
 app-text/texlive-core cjk xetex X png science truetype xetex extra graphics humanities
-
 
 # X 	Add support for X11
 # cjk 	Add support for Multi-byte character languages (Chinese, Japanese, Korean)
