@@ -1,0 +1,9 @@
+# Sample profile by groups keys
+
+r 1 00ffff
+r 2 ff00ff
+r 3 ffff00
+r 4 0000ff
+r 5 ff0000
+
+c # Commit changes

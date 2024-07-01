@@ -25,3 +25,10 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 source /usr/share/git/git-prompt.sh
 
 # Put your fun stuff here.
+g213-led -p /etc/g810-led/user
+
+exit_session() {
+        g213-led -p /etc/g810-led/gnome
+}
+
+trap exit_session EXIT

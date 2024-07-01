@@ -1,0 +1,6 @@
+# root Profile
+
+a ff0000 # Set all keys off
+r 4 0000ff # Set all keys off
+
+c # Commit changes
